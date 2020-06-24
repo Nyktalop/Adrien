@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b3f7efb-d4de-403d-bcdb-8779ee5d872c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dbLO87Z1p8aPGtdwZ6PZcA1Lt0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ressources/Adrien" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nychtos\PycharmProjects\Adrien\Ressources\Adrien" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Adrien" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Nychtos\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="Adrien" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Nychtos\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b3f7efb-d4de-403d-bcdb-8779ee5d872c" name="Default Changelist" comment="" />
+      <created>1592688813013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592688813013</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592759505818">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592759505818" />
+    <state x="718" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592757477272">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="718" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592757477272" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592759505101">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592759505101" />
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1593031478573">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593031478573" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1593031478573">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593031478573" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1593031478573">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593031478573" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1593031478573">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593031478573" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1592688861952">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592688861952" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593031053248">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593031053248" />
+  </component>
+</project>
