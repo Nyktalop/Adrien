@@ -14,6 +14,8 @@ class Animator:
         self.canvas = canvas
         self.img = canvas.create_image(x, y, image=self.frames["idle_r_0"])
 
+        self.hitbox = canvas.create_rectangle(x - 7, y - 13, x + 7, y + 13,state=tk.HIDDEN)
+
     def build_frames(self):
         for dir in ['r', 'l']:
             for state in ["idle", "running", "rising", "falling", "landing"]:
@@ -51,3 +53,4 @@ class Animator:
 
     def move_to(self, x, y):
         self.canvas.coords(self.img, x, y)
+        self.canvas.coords(self.hitbox, x-7, y-13,x+7,y+13)
