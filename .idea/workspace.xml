@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3f7efb-d4de-403d-bcdb-8779ee5d872c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Modules/physics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Maps/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Maps/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/L.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/R.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/o.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/animator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/animator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/physics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/physics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Maps/0" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +28,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dbLO87Z1p8aPGtdwZ6PZcA1Lt0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Ressources/Adrien" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -103,15 +110,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592759505818">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592759505818" />
-    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593102899451">
+    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593254406060">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593102899451" />
+    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593254406060" />
     <state x="718" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592757477272">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -120,29 +130,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592759505101" />
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1593129495656">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1593255622076">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593129495656" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1593129495656">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1593255622076">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593129495656" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1593129495656">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1593255622076">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593129495656" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1593129495656">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1593255622076">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593129495656" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1592688861952">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592688861952" />
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593123429817">
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593253732844">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593123429817" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593253732844" />
   </component>
 </project>

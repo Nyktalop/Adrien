@@ -10,7 +10,7 @@ canvas = tk.Canvas(fen, width=960, height=640, bg="#a9ebf2")
 canvas.grid(row=0, column=0)
 
 p = Physics(canvas)
-p.open_level("0")
+p.open_level("1")
 
 pos = p.get_init_char_pos()
 Adrien = Character(pos[0], pos[1], 14, 26, canvas, p)
@@ -22,7 +22,7 @@ evt_handler.add_subscriber(Adrien)
 def loop():
     evt_handler.publish()
 
-    fen.after(150, loop)
+    fen.after(75, loop)
 
 
 loop()

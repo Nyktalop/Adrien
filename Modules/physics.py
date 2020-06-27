@@ -6,14 +6,14 @@ class Tile :
         self.char = char
         self.pos = (x,y)
         if canvas :
-            self.highlight = canvas.create_rectangle(x,y,x+16,y+16,state=tk.HIDDEN,outline="white")
             if self.type != "Air" :
                 self.img = tk.PhotoImage(file="Ressources/Terrain/" + char + ".gif")
                 self.rep = canvas.create_image(x,y,image=self.img,anchor="nw")
+            self.highlight = canvas.create_rectangle(x, y, x + 16, y + 16, state=tk.HIDDEN, outline="white")
 
     @staticmethod
     def det_type(char):
-        if char in ['X'] :
+        if char in ['X','R','L','o'] :
             return "Block"
 
         return "Air"
@@ -49,9 +49,12 @@ class Physics :
 
                 nb_y += 1
                 line = file.readline()
-            for j in range(nb_y+1,40) :
-                for i in range(59):
+            for j in range(nb_y+1,41) :
+                self.tiles.append([])
+                for i in range(60):
                     self.tiles[-1].append(Tile(self.canvas, " ", i * 16, j * 16))
+
+
 
     def get_tile_type(self,x,y):
         if x < 0 or x >= 960 or y < 0 or y >= 640 :
@@ -61,7 +64,7 @@ class Physics :
 
     def get_tile(self,x,y):
         if x < 0 or x >= 960 or y < 0 or y >= 640 :
-            return Tile(None,"X",x,y)
+            return Tile(None,"X",16*(x//16),16*(y//16))
 
         return self.tiles[y//16][x//16]
 
@@ -73,10 +76,10 @@ class Physics :
         infos["Up"] = self.get_tile(x,y-14)
         infos["UpLeft"] = self.get_tile(x-8,y-14)
         infos["UpRight"] = self.get_tile(x+8,y-14)
-        infos["Down"] = self.get_tile(x,y+17)
-        infos["DownLeft"] = self.get_tile(x-8,y+17)
-        infos["DownRight"] = self.get_tile(x+8,y+17)
-        infos["Left"] = self.get_tile(x-8,y)
-        infos["Right"] = self.get_tile(x+8,y)
+        infos["Down"] = self.get_tile(x,y+20)
+        infos["DownLeft"] = self.get_tile(x-8,y+20)
+        infos["DownRight"] = self.get_tile(x+8,y+20)
+        infos["Left"] = self.get_tile(x-8,y+5)
+        infos["Right"] = self.get_tile(x+8,y+5)
 
         return infos
