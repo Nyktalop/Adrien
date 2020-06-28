@@ -6,7 +6,7 @@ from Modules.physics import Physics
 fen = tk.Tk()
 fen.geometry("960x640")
 
-canvas = tk.Canvas(fen, width=960, height=640, bg="#a9ebf2")
+canvas = tk.Canvas(fen, width=960, height=640, bg="#7c6d60")
 canvas.grid(row=0, column=0)
 
 p = Physics(canvas)
@@ -14,6 +14,7 @@ p.open_level("1")
 
 pos = p.get_init_char_pos()
 Adrien = Character(pos[0], pos[1], 14, 26, canvas, p)
+
 
 evt_handler = EvtHandler()
 evt_handler.add_subscriber(Adrien)

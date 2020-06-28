@@ -13,7 +13,7 @@ class Tile :
 
     @staticmethod
     def det_type(char):
-        if char in ['X','R','L','o'] :
+        if char in ['X','R','L','o','g','d','K','[',']'] :
             return "Block"
 
         return "Air"

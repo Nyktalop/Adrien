@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3f7efb-d4de-403d-bcdb-8779ee5d872c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ressources/Maps/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/L.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/R.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/o.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/K.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/[.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/].gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/g.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/character.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/physics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/physics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Maps/0" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Maps/1" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/L.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/L.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/R.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/R.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/X.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/X.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/o.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/o.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,29 +134,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592759505101" />
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1593255622076">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1593306713666">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1593255622076">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593306713666" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1593306713666">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1593255622076">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593306713666" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1593306713665">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1593255622076">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593306713665" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1593306713666">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593255622076" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593306713666" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1592688861952">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592688861952" />
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593253732844">
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593295254689">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593253732844" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593295254689" />
   </component>
 </project>
