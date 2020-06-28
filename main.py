@@ -5,6 +5,8 @@ from Modules.physics import Physics
 
 fen = tk.Tk()
 fen.geometry("960x640")
+fen.title("  Adrien")
+fen.iconphoto(False,tk.PhotoImage(file="Ressources/icon.png"))
 
 canvas = tk.Canvas(fen, width=960, height=640, bg="#7c6d60")
 canvas.grid(row=0, column=0)
