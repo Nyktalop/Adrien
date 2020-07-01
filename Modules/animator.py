@@ -18,7 +18,7 @@ class Animator:
 
     def build_frames(self):
         for dir in ['r', 'l']:
-            for state in ["idle", "running", "rising", "falling", "landing"]:
+            for state in ["idle", "running", "rising", "falling", "landing", "climbing"]:
                 for index in range(20):
                     name = state + "_" + dir + "_" + str(index)
                     try:
@@ -41,7 +41,7 @@ class Animator:
             self.canvas.itemconfig(self.img, image=self.frames[self.state + "_" + self.dir + "_" + str(self.frame_num)])
 
     def change_state(self, state):
-        if state in ["idle", "running", "landing", "rising", "falling"]:
+        if state in ["idle", "running", "landing", "rising", "falling", "climbing"]:
             self.state = state
             self.frame_num = 0
             self.canvas.itemconfig(self.img, image=self.frames[self.state + "_" + self.dir + "_0"])
