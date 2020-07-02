@@ -150,7 +150,7 @@ class Character:
             self.infos = self.physics.get_infos(self.x, self.y)
 
         elif self.lrintent != "None" and self.dx == 0:
-            if self.infos[self.lrintent].type == "Air" and self.infos["Up" + self.lrintent].type == "Air":
+            if self.infos[self.lrintent].type != "Block" and self.infos["Up" + self.lrintent].type != "Block":
                 print("intent : ", self.lrintent)
                 self.dx = self.vit_dep_hor if self.lrintent == "Right" else -self.vit_dep_hor
                 if self.state == "ground":

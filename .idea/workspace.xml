@@ -2,86 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3f7efb-d4de-403d-bcdb-8779ee5d872c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Crea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Maps/bin1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/501.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/9.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/animator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/animator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adrien.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adrien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crea.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/character.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/physics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/physics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ressources/Maps/0" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ressources/Maps/1" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/+.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/B.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/C.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/E.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/H.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/I - Copie.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/I.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/K.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/L.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/M.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/N.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/R.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/X.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/Y.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/Z.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/[.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/].gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/^.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/a.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/g.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/o.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/v.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/{.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/}.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adrien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Maps/2" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Maps/bin0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Maps/bin1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,6 +146,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655482064" />
+    <state x="803" y="415" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1593716005983">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="803" y="415" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593716005983" />
     <state x="718" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592757477272">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -224,45 +158,45 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593645238883" />
-    <state width="1899" height="213" key="GridCell.Tab.0.bottom" timestamp="1593655486649">
+    <state width="1899" height="213" key="GridCell.Tab.0.bottom" timestamp="1593720410979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
-    <state width="1899" height="213" key="GridCell.Tab.0.center" timestamp="1593655486649">
+    <state width="1899" height="213" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
+    <state width="1899" height="213" key="GridCell.Tab.0.center" timestamp="1593720410979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
-    <state width="1899" height="213" key="GridCell.Tab.0.left" timestamp="1593655486649">
+    <state width="1899" height="213" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
+    <state width="1899" height="213" key="GridCell.Tab.0.left" timestamp="1593720410979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
-    <state width="1899" height="213" key="GridCell.Tab.0.right" timestamp="1593655486649">
+    <state width="1899" height="213" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
+    <state width="1899" height="213" key="GridCell.Tab.0.right" timestamp="1593720410979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1593563245580">
+    <state width="1899" height="213" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1593690825455">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
-    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1593563245580">
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593690825455" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1593690825454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
-    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1593563245580">
+    <state width="1899" height="352" key="GridCell.Tab.1.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593690825454" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1593690825454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
-    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1593563245580">
+    <state width="1899" height="352" key="GridCell.Tab.1.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593690825454" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1593690825455">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593690825455" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1593638312780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593638312780" />
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593638284246">
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593695906191">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593638284246" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593695906191" />
   </component>
 </project>

@@ -35,8 +35,9 @@ class Map :
         self.tiles = []
         self.cara_pos = (480, 320)
         self.canvas = canvas
-        self.nb_tiles = 28
+        self.initialized = False
         self.img_dict = self.build_dict()
+
 
     def build_dict(self):
         dict = {}
@@ -54,8 +55,19 @@ class Map :
 
         return dict
 
-    def save_bin_level(self, file_name):
-        with open("Ressources/Maps/" + file_name, "wb") as file:
+    def clean_tiles(self):
+        if self.tiles :
+            for line in self.tiles :
+                for tile in line :
+                    if tile.rep :
+                        self.canvas.delete(tile.rep)
+                    self.canvas.delete(tile.highlight_rect)
+                del(line)
+            del(self.tiles)
+            self.tiles = []
+
+    def save_bin_level(self, file_name, absolute=False):
+        with open("Ressources/Maps/" + file_name if not absolute else file_name, "wb") as file:
             for i, line in enumerate(self.tiles):
                 for j, tile in enumerate(line):
                     if (j * 16, i * 16) == self.cara_pos:
@@ -66,8 +78,20 @@ class Map :
                 file.write(b'\xff\xff')
 
 
-    def open_bin_level(self, file_name):
-        with open("Ressources/Maps/" + file_name, "rb") as file:
+    def open_blank(self):
+        self.clean_tiles()
+        for i in range(40) :
+            self.tiles.append([])
+            for j in range(60) :
+                self.tiles[-1].append(Tile(self.canvas, None, 0, j * 16, i * 16))
+
+        self.initialized = True
+
+        print(len(self.tiles), len(self.tiles[-1]))
+
+    def open_bin_level(self, file_name, absolute=False):
+        self.clean_tiles()
+        with open("Ressources/Maps/" + file_name if not absolute else file_name, "rb") as file:
             content = file.read()
 
         self.tiles.append([])
@@ -106,10 +130,12 @@ class Map :
             for i in range(60):
                 self.tiles[-1].append(Tile(self.canvas, None, 0, i * 16, j * 16))
 
+        self.initialized = True
 
 
-    def open_level(self, file_name):
-        with open("Ressources/Maps/" + file_name) as file:
+    def open_level(self, file_name, absolute=False):
+        self.clean_tiles()
+        with open("Ressources/Maps/" + file_name if not absolute else file_name) as file:
             line = file.readline()
             nb_y = 0
             while line:
@@ -139,6 +165,8 @@ class Map :
                 self.tiles.append([])
                 for i in range(60):
                     self.tiles[-1].append(Tile(self.canvas, 0, i * 16, j * 16))
+
+            self.initialized = True
 
     def highlight_tile(self,x,y):
         if x < 0 or x >= 960 or y < 0 or y >= 640:
