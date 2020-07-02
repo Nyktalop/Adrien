@@ -8,11 +8,11 @@ fen.geometry("960x640")
 fen.title("  Adrien")
 fen.iconphoto(False,tk.PhotoImage(file="Ressources/icon.png"))
 
-canvas = tk.Canvas(fen, width=960, height=640, bg="#909095")
+canvas = tk.Canvas(fen, width=960, height=640, bg="#B0B0BB")
 canvas.grid(row=0, column=0)
 
 p = Physics(canvas)
-p.open_level("1")
+p.map.open_bin_level("bin0")
 
 pos = p.get_init_char_pos()
 Adrien = Character(pos[0]+6, pos[1], 14, 26, canvas, p)
@@ -25,7 +25,7 @@ evt_handler.add_subscriber(Adrien)
 def loop():
     evt_handler.publish()
 
-    fen.after(70, loop)
+    fen.after(50, loop)
 
 
 loop()

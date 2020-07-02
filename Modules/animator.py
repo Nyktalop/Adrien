@@ -27,7 +27,7 @@ class Animator:
                     except:
                         break
 
-    def next_frame(self):
+    def next_frame(self,moved = False):
         change = False
         if self.state in ["idle", "running"]:
             self.frame_num = (self.frame_num + 1) % self.num_frames[self.state]
@@ -36,6 +36,11 @@ class Animator:
         elif self.state in ["rising", "falling","landing"] and self.frame_num < self.num_frames[self.state] - 1:
             self.frame_num += 1
             change = True
+
+        if self.state == "climbing" and moved:
+            self.frame_num = (self.frame_num + 1) % self.num_frames[self.state]
+            change = True
+
 
         if change:
             self.canvas.itemconfig(self.img, image=self.frames[self.state + "_" + self.dir + "_" + str(self.frame_num)])

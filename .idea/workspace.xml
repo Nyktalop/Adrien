@@ -2,45 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3f7efb-d4de-403d-bcdb-8779ee5d872c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Maps/2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/+.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/B.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/C.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/E.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/H.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/I - Copie.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/I.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/M.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/N.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/Y.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/Z.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/^.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/a.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/{.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/}.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Maps/bin1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/501.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/9.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/animator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/animator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/character.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/physics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/physics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_l_0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Adrien/climbing_r_0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Maps/0" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ressources/Maps/1" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/K.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/K.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/L.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/L.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/R.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/R.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/X.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/X.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/[.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/[.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/].gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/].gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/d.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/d.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/g.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/g.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/o.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/o.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/+.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Terrain/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/B.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/C.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/E.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/H.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/I - Copie.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/I.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/K.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/L.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/M.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/N.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/R.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/X.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/Y.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/Z.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/[.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/].gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/^.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/a.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/g.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/o.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/v.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/{.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Terrain/}.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adrien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +111,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ressources/Adrien" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Crea.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -80,8 +121,8 @@
       <recent name="C:\Users\Nychtos\PycharmProjects\Adrien\Ressources\Adrien" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Adrien">
+    <configuration name="Adrien" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Adrien" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +134,28 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Nychtos\PycharmProjects\Adrien\Adrien.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Crea" type="PythonConfigurationType" factoryName="Python">
+      <module name="Adrien" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Nychtos\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crea.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,8 +186,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.Crea" />
+      <item itemvalue="Python.Adrien" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -145,38 +208,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592759505818">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593645239716">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592759505818" />
-    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593529296492">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593645239716" />
+    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593655482064">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593529296492" />
+    <state x="741" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655482064" />
     <state x="718" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592757477272">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="718" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592757477272" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1592759505101">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1593645238883">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592759505101" />
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1593563245580">
+    <state x="740" y="279" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593645238883" />
+    <state width="1899" height="213" key="GridCell.Tab.0.bottom" timestamp="1593655486649">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
-    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1593563245580">
+    <state width="1899" height="213" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
+    <state width="1899" height="213" key="GridCell.Tab.0.center" timestamp="1593655486649">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
-    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1593563245580">
+    <state width="1899" height="213" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
+    <state width="1899" height="213" key="GridCell.Tab.0.left" timestamp="1593655486649">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
-    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1593563245580">
+    <state width="1899" height="213" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
+    <state width="1899" height="213" key="GridCell.Tab.0.right" timestamp="1593655486649">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
+    <state width="1899" height="213" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593655486649" />
     <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1593563245580">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -193,13 +256,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="352" key="GridCell.Tab.1.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593563245580" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1592688861952">
+    <state x="461" y="167" key="SettingsEditor" timestamp="1593638312780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1592688861952" />
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593547549315">
+    <state x="461" y="167" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593638312780" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593638284246">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593547549315" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593638284246" />
   </component>
 </project>
