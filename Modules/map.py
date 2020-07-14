@@ -21,8 +21,11 @@ class Tile:
         if self.val != 0 and self.val < 500:
             return "Block"
 
-        elif self.val > 500 :
+        elif self.val > 500 and self.val < 1000 :
             return "Rope"
+
+        elif self.val > 1000 :
+            return "Death"
 
         return "Air"
 
@@ -48,6 +51,12 @@ class Map :
                 break
 
         for i in range(501,600) :
+            try:
+                dict[i] = tk.PhotoImage(file="Ressources/Terrain/" + str(i) + ".gif")
+            except:
+                break
+
+        for i in range(1001,1100) :
             try:
                 dict[i] = tk.PhotoImage(file="Ressources/Terrain/" + str(i) + ".gif")
             except:
@@ -87,7 +96,7 @@ class Map :
 
         self.initialized = True
 
-        print(len(self.tiles), len(self.tiles[-1]))
+        #print(len(self.tiles), len(self.tiles[-1]))
 
     def open_bin_level(self, file_name, absolute=False):
         self.clean_tiles()

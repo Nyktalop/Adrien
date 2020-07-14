@@ -59,3 +59,4 @@ class Animator:
     def move_to(self, x, y):
         self.canvas.coords(self.img, x, y)
         self.canvas.coords(self.hitbox, x-7, y-13,x+7,y+13)
+        self.canvas.tag_raise(self.img)

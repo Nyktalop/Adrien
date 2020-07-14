@@ -19,10 +19,15 @@ class EvtHandler:
         if not entity in self.subscribers:
             self.subscribers.append(entity)
 
-    def publish(self):
+    def reset(self):
+        self.key_pressed = []
+        self.key_released = []
+        self.current_keys = []
 
+    def publish(self):
         for sub in self.subscribers:
             sub.next_step(self.key_pressed, self.key_released)
 
         self.key_pressed = []
         self.key_released = []
+

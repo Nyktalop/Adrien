@@ -14,14 +14,26 @@ class Character:
         self.vit_dep_vert = 10
         self.dx = 0
         self.dy = 0
-        self.infos = None
+        self.infos = physics.get_infos(x,y)
 
-        self.state = "ground"  # ground/jump
+        self.state = "ground"  # ground/jump/rope
+        self.command = "normal" # normal/death/reset
         self.lrintent = "None"
         self.udintent = "None"
         self.update = False
 
-    def move_to(self,x,y):
+    def reset_to(self, x, y):
+        self.x = x
+        self.y = y
+        self.dx = 0
+        self.dy = 0
+        self.state = "ground"
+        self.command = "normal"
+        self.lrintent = "None"
+        self.udintent = "None"
+        self.update = False
+        self.animator.change_state("idle")
+        self.animator.change_dir("r")
         self.animator.move_to(x,y)
 
     def next_step(self, key_pressed, key_released):
@@ -103,15 +115,16 @@ class Character:
         self.x += self.dx
         self.y += self.dy
 
-        # for e in ["Right","Up","UpRight"] :
-        #     self.physics.canvas.itemconfig(self.infos[e].highlight_rect,state=tk.HIDDEN)
+        # for e in ["Self","Right","Left"] :
+        #     self.physics.map.canvas.itemconfig(self.infos[e].highlight_rect,state=tk.HIDDEN)
 
         self.infos = self.physics.get_infos(self.x, self.y)
 
-        # for e in ["Right","Up","UpRight"]:
-        #     self.physics.canvas.itemconfig(self.infos[e].highlight_rect,state=tk.NORMAL)
+        # for e in ["Self","Right","Left"]:
+        #     self.physics.map.canvas.itemconfig(self.infos[e].highlight_rect,state=tk.NORMAL)
 
         if self.infos["Self"].type == "Rope" and self.state != "rope":
+            print("Rope")
             self.state = "rope"
             self.dy = 0
             self.animator.change_state("climbing")
@@ -167,7 +180,7 @@ class Character:
                 self.animator.change_state("climbing")
                 change = True
 
-        if (self.state == "jump" and self.infos["Down"].type != "Air") or (
+        if (self.state == "jump" and (self.infos["Down"].type == "Block" or self.infos["Down"].type == "Rope")) or (
             self.state == "rope" and self.infos["Down"].type == "Block"):
             print("land : ", self.infos["Self"].type)
             self.dy = 0
@@ -178,7 +191,7 @@ class Character:
                 self.animator.change_state("landing")
             change = True
 
-        elif self.infos["Down"].type == "Air" and self.state != "jump" and self.infos["Self"].type != "Rope":
+        elif self.infos["Down"].type != "Block" and self.state != "jump" and self.infos["Self"].type != "Rope":
             print("fall")
             self.state = "jump"
             self.animator.change_state("falling")
@@ -189,5 +202,10 @@ class Character:
         self.animator.move_to(self.x, self.y)
         if not change and self.update:
             self.animator.next_frame(self.dx != 0 or self.dy != 0)
+
+        if self.infos["Left"].type == "Death" or self.infos["Right"].type == "Death" or "r" in key_pressed or "R" in key_pressed:
+            self.command = "death"
+
+
 
         # print(self.infos,"\n---- Next Frame ----")

@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3f7efb-d4de-403d-bcdb-8779ee5d872c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Modules/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Maps/4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Terrain/1001.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Adrien.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adrien.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Crea.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/animator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/animator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/evthandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/evthandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modules/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Maps/0" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Maps/1" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Maps/2" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Maps/bin0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources/Maps/bin1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/Maps/3" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/Maps/3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,9 +117,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.Crea" />
       <item itemvalue="Python.Adrien" />
+      <item itemvalue="Python.Crea" />
+      <item itemvalue="Python.test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -158,22 +159,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593645238883" />
-    <state width="1899" height="213" key="GridCell.Tab.0.bottom" timestamp="1593720410979">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1899" height="260" key="GridCell.Tab.0.bottom" timestamp="1594769917898">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
-    <state width="1899" height="213" key="GridCell.Tab.0.center" timestamp="1593720410979">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1899" height="260" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594769917898" />
+    <state width="1899" height="213" key="GridCell.Tab.0.bottom/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593732208509" />
+    <state width="1345" height="282" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593817311935" />
+    <state width="1899" height="260" key="GridCell.Tab.0.center" timestamp="1594769917898">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
-    <state width="1899" height="213" key="GridCell.Tab.0.left" timestamp="1593720410979">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1899" height="260" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594769917898" />
+    <state width="1899" height="213" key="GridCell.Tab.0.center/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593732208509" />
+    <state width="1345" height="282" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593817311935" />
+    <state width="1899" height="260" key="GridCell.Tab.0.left" timestamp="1594769917898">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
-    <state width="1899" height="213" key="GridCell.Tab.0.right" timestamp="1593720410979">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1899" height="260" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594769917898" />
+    <state width="1899" height="213" key="GridCell.Tab.0.left/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593732208508" />
+    <state width="1345" height="282" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593817311934" />
+    <state width="1899" height="260" key="GridCell.Tab.0.right" timestamp="1594769917898">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593720410979" />
+    <state width="1899" height="260" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594769917898" />
+    <state width="1899" height="213" key="GridCell.Tab.0.right/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593732208509" />
+    <state width="1345" height="282" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593817311935" />
     <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1593690825455">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -194,9 +203,19 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593638312780" />
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593695906191">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594671934465">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593695906191" />
+    <state width="498" height="446" key="SwitcherDM/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594671934465" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1594761717222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594761717222" />
+    <state x="655" y="348" key="com.intellij.ide.util.TipDialog/-1366.0.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1593729623272" />
+    <state x="466" y="245" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1593816391205" />
+    <state x="552" y="178" key="scopes" timestamp="1594768120105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="scopes/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1594768120105" />
   </component>
 </project>

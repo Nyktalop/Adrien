@@ -41,7 +41,6 @@ def save():
     if not p.map.initialized :
         return
 
-    print(file_name)
     if file_name == "New Map" :
         saveas()
     else :
@@ -67,7 +66,7 @@ def new() :
 
 
 def move_cara_to(x,y) :
-    Adrien.move_to(16*(x//16)+6,16*(y//16))
+    Adrien.reset_to(16 * (x // 16) + 6, 16 * (y // 16))
     p.map.cara_pos = (16*(x//16),16*(y//16))
 
 def motion(evt) :
@@ -122,6 +121,16 @@ def click2(evt):
     p.map.change_tile(evt.x, evt.y, 0)
     saved = False
 
+def labelclick(evt) :
+    global i_select, pointval
+
+    labels[i_select].config(relief=tk.FLAT)
+
+    i_select = id_to_iselect[evt.widget.winfo_id()]
+
+    pointval = vals[i_select]
+    labels[i_select].config(relief=tk.GROOVE)
+
 def select(evt):
     global i_select,pointval
 
@@ -132,23 +141,23 @@ def select(evt):
     elif evt.keysym == "Down" :
         i_select = (i_select + 5) % len(labels)
     elif evt.keysym == "Left" :
-        i_select = i_select = (i_select - 1) % len(labels)
+        i_select = (i_select - 1) % len(labels)
     elif evt.keysym == "Right" :
-        i_select = i_select = (i_select + 1) % len(labels)
-
-    print(i_select)
+        i_select = (i_select + 1) % len(labels)
 
     pointval = vals[i_select]
     labels[i_select].config(relief=tk.GROOVE)
 
 
 fen = tk.Tk()
-fen.geometry("1220x640")
+fen.geometry("1220x643")
 fen.title("  Level Create")
 fen.iconphoto(False,tk.PhotoImage(file="Ressources/icon.png"))
 
-canvas = tk.Canvas(fen, width=958, height=638, bg="#B0B0BB")
+canvas = tk.Canvas(fen, width=960, height=640, bg="#B0B0BB")
 canvas.grid(row=0, column=0,rowspan=25)
+
+sep_line = canvas.create_rectangle(2,2,961,641,width=2)
 
 frame = tk.Frame(fen)
 frame.grid(row=0,column=1,padx=25)
@@ -162,18 +171,25 @@ file_name = "New Map"
 
 labels = []
 vals = []
+id_to_iselect = {}
 
 labels.append(tk.Label(frame,image=Adrien.animator.frames["idle_r_0"]))
 vals.append(65534)
 labels[-1].grid(row=0,column=0,padx=10,pady=10)
+labels[-1].bind("<Button-1>", labelclick)
+id_to_iselect[labels[-1].winfo_id()] = 0
+
+
 
 for i,val in enumerate(p.map.img_dict) :
     x = (i+1) % 5
     y = (i+1) // 5
     labels.append(tk.Label(frame,image=p.map.img_dict[val],bd=5))
     vals.append(val)
-    print(x,y)
     labels[-1].grid(row=y,column=x,padx=5,pady=5)
+    labels[-1].bind("<Button-1>",labelclick)
+
+    id_to_iselect[labels[-1].winfo_id()] = i+1
 
 
 new_button = tk.Button(frame,text="New",command=new,width=10)
