@@ -165,7 +165,7 @@ frame.grid(row=0,column=1,padx=25)
 p = Physics(canvas)
 # p.map.open_bin_level("bin0")
 # pos = p.get_init_char_pos()
-Adrien = Character(-50, -50, 14, 26, canvas, p)
+Adrien = Character(-50, -50, canvas, p)
 
 file_name = "New Map"
 

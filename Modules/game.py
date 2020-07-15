@@ -23,7 +23,7 @@ class Game :
         self.physics.map.open_bin_level(str(self.current_level))
 
         pos = self.physics.get_init_char_pos()
-        self.char = Character(pos[0]+6, pos[1], 14, 26, self.window.canvas, self.physics)
+        self.char = Character(pos[0]+6, pos[1], self.window.canvas, self.physics)
 
         self.evt_handler = EvtHandler()
         self.evt_handler.add_subscriber(self.char)
@@ -42,8 +42,11 @@ class Game :
 
         if self.char.command == "normal":
             self.window.fen.after(50, self.loop)
+
         elif self.char.command == "death":
             self.physics.map.open_bin_level(str(self.current_level))
             pos = self.physics.get_init_char_pos()
             self.char.reset_to(pos[0] + 6, pos[1])
             self.window.fen.after(50, self.loop)
+
+

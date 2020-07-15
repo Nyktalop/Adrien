@@ -5,7 +5,7 @@ import tkinter as tk
 
 
 class Character:
-    def __init__(self, x, y, width, height, canvas, physics):
+    def __init__(self, x, y, canvas, physics):
         self.animator = Animator(canvas, x, y)
         self.physics = physics
         self.x = x
@@ -130,10 +130,6 @@ class Character:
             self.animator.change_state("climbing")
             change = True
 
-        # elif self.state == "rope" and self.infos["Self"].type != "Rope" :
-        #     self.state = "jump"
-        #     self.dy = -self.vit_dep_vert
-
         if self.dy < 0 and self.infos["Up"].type == "Block":
             print("bump up")
             if self.state != "rope" :
@@ -198,6 +194,7 @@ class Character:
             change = True
             self.y += 5
             self.dy = 3
+
 
         self.animator.move_to(self.x, self.y)
         if not change and self.update:
