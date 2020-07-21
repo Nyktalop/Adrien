@@ -35,36 +35,33 @@ class Tile:
 
 
     def __repr__(self):
-        return "Tile(Type : " + self.type + ", Char : " + self.val + ")"
+        return "Tile(Type : " + self.type + ", Val : " + str(self.val) + ")"
 
 
 class GoalTile(Tile) :
 
-    def __init__(self, canvas, img, val, x, y):
+    def __init__(self, canvas, img, val, x, y, frames):
         super().__init__( canvas, img, val, x, y)
-        self.frames = []
+        self.frames = frames
         self.curr_frame = 0
         self.step = randint(0,4)
         self.canvas = canvas
 
-        for index in range(20) :
-            name = "goal_" + str(index) + ".gif"
-            try :
-                self.frames.append(tk.PhotoImage(file="Ressources/Goal/"+name))
-            except :
-                break
+        print(len(frames))
 
         self.rep = canvas.create_image(x, y, image=self.frames[0],anchor="nw")
 
 
     def next_step(self,a,b):
         if self.type != "Goal" :
-            return
+            return False
 
         self.step = (self.step + 1) % 4
         if self.step == 0 :
             self.curr_frame = (self.curr_frame + 1) % len(self.frames)
             self.canvas.itemconfig(self.rep, image=self.frames[self.curr_frame])
+
+        return True
 
     def clear(self):
         self.type = "Air"
@@ -76,8 +73,10 @@ class Map :
         self.cara_pos = (480, 320)
         self.canvas = canvas
         self.initialized = False
+        self.goal_frames = []
         self.img_dict = self.build_dict()
         self.goal_tiles = []
+
 
 
     def build_dict(self):
@@ -101,6 +100,14 @@ class Map :
                 break
 
         dict[65533] = tk.PhotoImage(file="Ressources/Goal/goal_0.gif")
+
+        for index in range(20) :
+            name = "goal_" + str(index) + ".gif"
+            try :
+                print(name)
+                self.goal_frames.append(tk.PhotoImage(file="Ressources/Goal/"+name))
+            except :
+                break
 
         return dict
 
@@ -168,8 +175,8 @@ class Map :
                 x += 1
 
             elif val == val_spe["goal"] :
-                print("goal tile")
-                self.tiles[-1].append(GoalTile(self.canvas, None, val, x * 16, nb_y * 16))
+                print(len(self.goal_frames))
+                self.tiles[-1].append(GoalTile(self.canvas, None, val, x * 16, nb_y * 16, self.goal_frames))
                 self.goal_tiles.append(self.tiles[-1][-1])
                 x += 1
 

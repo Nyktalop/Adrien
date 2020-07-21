@@ -17,7 +17,7 @@ class GameWindow :
 
 class Game :
     def __init__(self):
-        self.current_level = 3
+        self.current_level = 2
         self.window = GameWindow(960, 640)
         self.physics = Physics(self.window.canvas)
         self.physics.map.open_bin_level(str(self.current_level))

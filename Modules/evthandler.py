@@ -1,3 +1,5 @@
+import multiprocessing as mp
+
 class EvtHandler:
     def __init__(self):
         self.current_keys = []
@@ -31,7 +33,8 @@ class EvtHandler:
 
     def publish(self):
         for sub in self.subscribers:
-            sub.next_step(self.key_pressed, self.key_released)
+            if not sub.next_step(self.key_pressed, self.key_released) :
+                del(sub)
 
         self.key_pressed = []
         self.key_released = []

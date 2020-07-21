@@ -226,4 +226,6 @@ class Character:
                 self.command = "win"
 
 
+
         # print(self.infos,"\n---- Next Frame ----")
+        return True
