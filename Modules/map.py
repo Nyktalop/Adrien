@@ -1,6 +1,7 @@
 import tkinter as tk
+from random import randint
 
-val_spe = {"endl" : 65535, "cara" : 65534}
+val_spe = {"endl" : 65535, "cara" : 65534, "goal" : 65533}
 char_val = {' ': 0, 'X': 1, 'R': 2, 'L': 5, 'o': 9, 'g': 3, 'd': 4, 'K': 6, '[': 7, ']': 8, '0': 11, '1': 12, '2': 13, '3': 10, 'A': 17, 'Z': 18, 'E': 19, 'Y': 20, 'H': 21, 'N': 22, '+': 27, '{': 24, '}': 23, 'v': 26, '^': 25, 'C': 14, 'B': 15, 'M': 16, 'I': 501}
 val_char = dict((v, k) for k, v in char_val.items())
 
@@ -10,7 +11,7 @@ class Tile:
         self.pos = (x, y)
         self.type = self.det_type()
         if canvas:
-            if self.val != 0:
+            if self.val != 0 and self.val != val_spe["goal"]:
                 self.rep = canvas.create_image(x, y, image=img, anchor="nw")
             else :
                 self.rep = None
@@ -24,14 +25,50 @@ class Tile:
         elif self.val > 500 and self.val < 1000 :
             return "Rope"
 
-        elif self.val > 1000 :
+        elif self.val > 1000 and self.val < 1500 :
             return "Death"
+
+        elif self.val == val_spe["goal"] :
+            return "Goal"
 
         return "Air"
 
 
     def __repr__(self):
         return "Tile(Type : " + self.type + ", Char : " + self.val + ")"
+
+
+class GoalTile(Tile) :
+
+    def __init__(self, canvas, img, val, x, y):
+        super().__init__( canvas, img, val, x, y)
+        self.frames = []
+        self.curr_frame = 0
+        self.step = randint(0,4)
+        self.canvas = canvas
+
+        for index in range(20) :
+            name = "goal_" + str(index) + ".gif"
+            try :
+                self.frames.append(tk.PhotoImage(file="Ressources/Goal/"+name))
+            except :
+                break
+
+        self.rep = canvas.create_image(x, y, image=self.frames[0],anchor="nw")
+
+
+    def next_step(self,a,b):
+        if self.type != "Goal" :
+            return
+
+        self.step = (self.step + 1) % 4
+        if self.step == 0 :
+            self.curr_frame = (self.curr_frame + 1) % len(self.frames)
+            self.canvas.itemconfig(self.rep, image=self.frames[self.curr_frame])
+
+    def clear(self):
+        self.type = "Air"
+        self.canvas.delete(self.rep)
 
 class Map :
     def __init__(self,canvas):
@@ -40,6 +77,7 @@ class Map :
         self.canvas = canvas
         self.initialized = False
         self.img_dict = self.build_dict()
+        self.goal_tiles = []
 
 
     def build_dict(self):
@@ -62,9 +100,12 @@ class Map :
             except:
                 break
 
+        dict[65533] = tk.PhotoImage(file="Ressources/Goal/goal_0.gif")
+
         return dict
 
     def clean_tiles(self):
+        self.goal_tiles = []
         if self.tiles :
             for line in self.tiles :
                 for tile in line :
@@ -126,6 +167,12 @@ class Map :
                 self.tiles[-1].append(Tile(self.canvas, None, 0, x * 16, nb_y * 16))
                 x += 1
 
+            elif val == val_spe["goal"] :
+                print("goal tile")
+                self.tiles[-1].append(GoalTile(self.canvas, None, val, x * 16, nb_y * 16))
+                self.goal_tiles.append(self.tiles[-1][-1])
+                x += 1
+
             elif val == 0 :
                 self.tiles[-1].append(Tile(self.canvas, None, 0, x * 16, nb_y * 16))
                 x += 1
@@ -133,6 +180,7 @@ class Map :
             elif val in self.img_dict:
                 self.tiles[-1].append(Tile(self.canvas, self.img_dict[val], val, x * 16, nb_y * 16))
                 x += 1
+
 
         for j in range(nb_y + 1, 41):
             self.tiles.append([])
@@ -190,12 +238,14 @@ class Map :
     def change_tile(self,x,y,val):
         tile = self.tiles[y//16][x//16]
         if tile.rep :
-            if val :
+            if val != 0 :
                 self.canvas.itemconfig(self.tiles[y//16][x//16].rep, image = self.img_dict[val])
             else :
                 self.canvas.delete(tile.rep)
                 tile.rep = None
         else :
-            tile.rep = self.canvas.create_image(tile.pos[0], tile.pos[1], image= self.img_dict[val] if val else None, anchor="nw")
-
+            if val == 0 :
+                tile.rep = self.canvas.create_image(tile.pos[0], tile.pos[1], image=None, anchor="nw")
+            else :
+                tile.rep = self.canvas.create_image(tile.pos[0], tile.pos[1],image=self.img_dict[val], anchor="nw")
         tile.val = val

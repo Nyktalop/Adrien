@@ -22,6 +22,8 @@ class Character:
         self.udintent = "None"
         self.update = False
 
+        self.num_goal = 0
+
     def reset_to(self, x, y):
         self.x = x
         self.y = y
@@ -35,6 +37,7 @@ class Character:
         self.animator.change_state("idle")
         self.animator.change_dir("r")
         self.animator.move_to(x,y)
+        self.num_goal = 0
 
     def next_step(self, key_pressed, key_released):
         change = False
@@ -203,6 +206,24 @@ class Character:
         if self.infos["Left"].type == "Death" or self.infos["Right"].type == "Death" or "r" in key_pressed or "R" in key_pressed:
             self.command = "death"
 
+        if self.infos["Left"].type == "Goal" or self.infos["Right"].type == "Goal" or self.infos["UpLeft"].type == "Goal" or self.infos["UpRight"].type == "Goal" :
+            self.num_goal += 1
+            print("Goal",self.num_goal)
+
+            if self.infos["UpRight"].type == "Goal":
+                self.infos["UpRight"].clear()
+
+            elif self.infos["UpLeft"].type == "Goal":
+                self.infos["UpLeft"].clear()
+
+            elif self.infos["Right"].type == "Goal" :
+                self.infos["Right"].clear()
+
+            elif self.infos["Left"].type == "Goal" :
+                self.infos["Left"].clear()
+
+            if self.num_goal == len(self.physics.map.goal_tiles) :
+                self.command = "win"
 
 
         # print(self.infos,"\n---- Next Frame ----")

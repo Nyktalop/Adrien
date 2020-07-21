@@ -17,7 +17,7 @@ class GameWindow :
 
 class Game :
     def __init__(self):
-        self.current_level = 4
+        self.current_level = 3
         self.window = GameWindow(960, 640)
         self.physics = Physics(self.window.canvas)
         self.physics.map.open_bin_level(str(self.current_level))
@@ -27,26 +27,39 @@ class Game :
 
         self.evt_handler = EvtHandler()
         self.evt_handler.add_subscriber(self.char)
+        self.evt_handler.add_subscriber_list(self.physics.map.goal_tiles)
 
         self.window.fen.bind_all("<KeyPress>", self.evt_handler.evt_key_pressed)
         self.window.fen.bind_all("<KeyRelease>", self.evt_handler.evt_key_released)
 
 
+    def load_level(self):
+        self.physics.map.open_bin_level(str(self.current_level))
+        self.evt_handler.reset()
+        self.evt_handler.add_subscriber(self.char)
+        self.evt_handler.add_subscriber_list(self.physics.map.goal_tiles)
+
+        pos = self.physics.get_init_char_pos()
+        self.char.reset_to(pos[0] + 6, pos[1])
+
     def run(self):
         self.loop()
         self.window.fen.mainloop()
+
+    def after(self):
+        self.window.fen.after(50,self.loop)
 
 
     def loop(self):
         self.evt_handler.publish()
 
         if self.char.command == "normal":
-            self.window.fen.after(50, self.loop)
+            self.window.fen.after_idle(self.after)
 
         elif self.char.command == "death":
-            self.physics.map.open_bin_level(str(self.current_level))
-            pos = self.physics.get_init_char_pos()
-            self.char.reset_to(pos[0] + 6, pos[1])
-            self.window.fen.after(50, self.loop)
+            self.load_level()
+            self.window.fen.after_idle(self.after)
 
-
+        elif self.char.command == "win" :
+            self.load_level()
+            self.window.fen.after_idle(self.after)

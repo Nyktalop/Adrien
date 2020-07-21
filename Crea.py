@@ -181,6 +181,8 @@ id_to_iselect[labels[-1].winfo_id()] = 0
 
 
 
+
+
 for i,val in enumerate(p.map.img_dict) :
     x = (i+1) % 5
     y = (i+1) // 5
